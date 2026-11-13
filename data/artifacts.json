@@ -1,15 +1,38 @@
 [
   {
     "id": "habit-tracker",
-    "title": "Daily habit tracker",
-    "problem": "Pick one or a few small habits, tick them off each day, and see how many days in a row you've kept them.",
-    "forWho": "Anyone trying to start or keep a small daily habit (walking, reading, water, no phone after 10 pm).",
-    "needAtHand": [
-      "Nothing. Just pick a habit."
-    ],
-    "timeToUse": "1 minute to set up, seconds per day",
+    "title": {
+      "en": "Daily habit tracker",
+      "es": "Registro de hábitos diarios",
+      "ca": "Registre d'hàbits diaris"
+    },
+    "problem": {
+      "en": "Pick one or a few small habits, tick them off each day, and see how many days in a row you've kept them.",
+      "es": "Elige uno o varios hábitos pequeños, márcalos cada día y mira cuántos días seguidos los has mantenido.",
+      "ca": "Tria un o uns quants hàbits petits, marca'ls cada dia i mira quants dies seguits els has mantingut."
+    },
+    "forWho": {
+      "en": "Anyone trying to start or keep a small daily habit (walking, reading, water, no phone after 10 pm).",
+      "es": "Cualquiera que quiera empezar o mantener un hábito diario pequeño (caminar, leer, beber agua, nada de móvil después de las 22 h).",
+      "ca": "Qualsevol persona que vulgui començar o mantenir un hàbit diari petit (caminar, llegir, beure aigua, res de mòbil després de les 22 h)."
+    },
+    "needAtHand": {
+      "en": [
+        "Nothing. Just pick a habit."
+      ],
+      "es": [
+        "Nada. Solo elige un hábito."
+      ],
+      "ca": [
+        "Res. Només cal triar un hàbit."
+      ]
+    },
+    "timeToUse": {
+      "en": "1 minute to set up, seconds per day",
+      "es": "1 minuto para empezar, segundos al día",
+      "ca": "1 minut per començar, segons al dia"
+    },
     "region": "Any",
-    "language": "English",
     "privacy": "browser-only",
     "url": "https://claude.ai/artifact/Cdg4MYu6J6VCeEdKq4HiVi",
     "status": "live",
@@ -17,20 +40,50 @@
     "tags": [
       "habits",
       "health"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "ca"
     ]
   },
   {
     "id": "money-saver",
-    "title": "Family money saver",
-    "problem": "Type what comes in and what goes out in a normal month, see what is left and where the money goes, and try what a few small cuts would add up to over a year.",
-    "forWho": "Any household that wants to save a bit more each month.",
-    "needAtHand": [
-      "Your monthly take-home income",
-      "Rough monthly amounts for rent or mortgage, bills, food and other spending"
-    ],
-    "timeToUse": "About 10 minutes",
+    "title": {
+      "en": "Family money saver",
+      "es": "Ahorro familiar",
+      "ca": "Estalvi familiar"
+    },
+    "problem": {
+      "en": "Type what comes in and what goes out in a normal month, see what is left and where the money goes, and try what a few small cuts would add up to over a year.",
+      "es": "Escribe lo que entra y lo que sale en un mes normal, mira cuánto sobra y en qué se va el dinero, y prueba cuánto sumarían al año unos pequeños recortes.",
+      "ca": "Escriu el que entra i el que surt en un mes normal, mira quant sobra i en què se'n van els diners, i prova quant sumarien a l'any unes petites retallades."
+    },
+    "forWho": {
+      "en": "Any household that wants to save a bit more each month.",
+      "es": "Cualquier hogar que quiera ahorrar un poco más cada mes.",
+      "ca": "Qualsevol llar que vulgui estalviar una mica més cada mes."
+    },
+    "needAtHand": {
+      "en": [
+        "Your monthly take-home income",
+        "Rough monthly amounts for rent or mortgage, bills, food and other spending"
+      ],
+      "es": [
+        "Lo que entra en casa cada mes, después de impuestos",
+        "Cantidades aproximadas al mes de alquiler o hipoteca, facturas, comida y otros gastos"
+      ],
+      "ca": [
+        "El que entra a casa cada mes, després d'impostos",
+        "Imports aproximats al mes de lloguer o hipoteca, factures, menjar i altres despeses"
+      ]
+    },
+    "timeToUse": {
+      "en": "About 10 minutes",
+      "es": "Unos 10 minutos",
+      "ca": "Uns 10 minuts"
+    },
     "region": "Any",
-    "language": "English",
     "privacy": "browser-only",
     "url": "https://claude.ai/artifact/AqAwnGZ7CcHQQrSXxMDHMM",
     "status": "live",
@@ -38,19 +91,47 @@
     "tags": [
       "money",
       "family"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "ca"
     ]
   },
   {
     "id": "meal-planner",
-    "title": "Weekly meal planner",
-    "problem": "Decide the week's lunches and dinners once, list what each dish needs, and get one shopping list for the whole week.",
-    "forWho": "Anyone who cooks for a household and is tired of deciding every day what to eat.",
-    "needAtHand": [
-      "An idea of the dishes you usually cook"
-    ],
-    "timeToUse": "10 minutes a week",
+    "title": {
+      "en": "Weekly meal planner",
+      "es": "Menú semanal",
+      "ca": "Menú setmanal"
+    },
+    "problem": {
+      "en": "Decide the week's lunches and dinners once, list what each dish needs, and get one shopping list for the whole week.",
+      "es": "Decide las comidas y cenas de la semana de una vez, apunta qué necesita cada plato y obtén una sola lista de la compra para toda la semana.",
+      "ca": "Decideix els dinars i els sopars de la setmana d'un cop, apunta què necessita cada plat i obtén una sola llista de la compra per a tota la setmana."
+    },
+    "forWho": {
+      "en": "Anyone who cooks for a household and is tired of deciding every day what to eat.",
+      "es": "Quien cocina para una casa y está cansado de decidir cada día qué comer.",
+      "ca": "Qui cuina per a una casa i està cansat de decidir cada dia què menjar."
+    },
+    "needAtHand": {
+      "en": [
+        "An idea of the dishes you usually cook"
+      ],
+      "es": [
+        "Una idea de los platos que sueles cocinar"
+      ],
+      "ca": [
+        "Una idea dels plats que acostumes a cuinar"
+      ]
+    },
+    "timeToUse": {
+      "en": "10 minutes a week",
+      "es": "10 minutos a la semana",
+      "ca": "10 minuts a la setmana"
+    },
     "region": "Any",
-    "language": "English",
     "privacy": "browser-only",
     "url": "https://claude.ai/artifact/4LUfiaubEdivQiQGqrvpMo",
     "status": "live",
@@ -58,21 +139,53 @@
     "tags": [
       "food",
       "family"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "ca"
     ]
   },
   {
     "id": "trip-budget",
-    "title": "Family trip budget",
-    "problem": "Add up the full cost of a trip for your family (travel, a place to stay, food and the rest) and compare two options side by side before you book.",
-    "forWho": "Families choosing between two holiday options on a budget.",
-    "needAtHand": [
-      "Ticket or fuel prices for each option",
-      "The price per night of the place to stay",
-      "A rough idea of daily food and activity costs"
-    ],
-    "timeToUse": "About 10 minutes",
+    "title": {
+      "en": "Family trip budget",
+      "es": "Presupuesto de viaje en familia",
+      "ca": "Pressupost de viatge en família"
+    },
+    "problem": {
+      "en": "Add up the full cost of a trip for your family (travel, a place to stay, food and the rest) and compare two options side by side before you book.",
+      "es": "Suma el coste total de un viaje en familia (transporte, alojamiento, comida y lo demás) y compara dos opciones lado a lado antes de reservar.",
+      "ca": "Suma el cost total d'un viatge en família (transport, allotjament, menjar i la resta) i compara dues opcions una al costat de l'altra abans de reservar."
+    },
+    "forWho": {
+      "en": "Families choosing between two holiday options on a budget.",
+      "es": "Familias que dudan entre dos opciones de vacaciones con un presupuesto ajustado.",
+      "ca": "Famílies que dubten entre dues opcions de vacances amb un pressupost ajustat."
+    },
+    "needAtHand": {
+      "en": [
+        "Ticket or fuel prices for each option",
+        "The price per night of the place to stay",
+        "A rough idea of daily food and activity costs"
+      ],
+      "es": [
+        "Precio de los billetes o del combustible de cada opción",
+        "Precio por noche del alojamiento",
+        "Una idea aproximada de lo que gastaréis al día en comida y actividades"
+      ],
+      "ca": [
+        "Preu dels bitllets o del combustible de cada opció",
+        "Preu per nit de l'allotjament",
+        "Una idea aproximada del que gastareu al dia en menjar i activitats"
+      ]
+    },
+    "timeToUse": {
+      "en": "About 10 minutes",
+      "es": "Unos 10 minutos",
+      "ca": "Uns 10 minuts"
+    },
     "region": "Any",
-    "language": "English",
     "privacy": "browser-only",
     "url": "https://claude.ai/artifact/V1MgRBap2bLx85mmSvvLHk",
     "status": "live",
@@ -81,20 +194,50 @@
       "travel",
       "money",
       "family"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "ca"
     ]
   },
   {
     "id": "mortgage-simulator",
-    "title": "Mortgage offer comparison",
-    "problem": "Compare up to three mortgage offers side by side and see your monthly payment, total interest and how much the loan really costs.",
-    "forWho": "Anyone choosing between home-loan offers.",
-    "needAtHand": [
-      "The price of the home and the deposit you can put down",
-      "Each offer's interest rate, term and fees"
-    ],
-    "timeToUse": "About 10 minutes",
+    "title": {
+      "en": "Mortgage offer comparison",
+      "es": "Comparador de ofertas de hipoteca",
+      "ca": "Comparador d'ofertes d'hipoteca"
+    },
+    "problem": {
+      "en": "Compare up to three mortgage offers side by side and see your monthly payment, total interest and how much the loan really costs.",
+      "es": "Compara hasta tres ofertas de hipoteca lado a lado y mira la cuota mensual, los intereses totales y lo que te cuesta de verdad el préstamo.",
+      "ca": "Compara fins a tres ofertes d'hipoteca una al costat de l'altra i mira la quota mensual, els interessos totals i el que et costa de debò el préstec."
+    },
+    "forWho": {
+      "en": "Anyone choosing between home-loan offers.",
+      "es": "Cualquiera que tenga que elegir entre ofertas de hipoteca, en cualquier país.",
+      "ca": "Qualsevol persona que hagi de triar entre ofertes d'hipoteca, a qualsevol país."
+    },
+    "needAtHand": {
+      "en": [
+        "The price of the home and the deposit you can put down",
+        "Each offer's interest rate, term and fees"
+      ],
+      "es": [
+        "El precio de la vivienda y la entrada que puedes aportar",
+        "El tipo de interés, el plazo y las comisiones de cada oferta"
+      ],
+      "ca": [
+        "El preu de l'habitatge i l'entrada que pots aportar",
+        "El tipus d'interès, el termini i les comissions de cada oferta"
+      ]
+    },
+    "timeToUse": {
+      "en": "About 10 minutes",
+      "es": "Unos 10 minutos",
+      "ca": "Uns 10 minuts"
+    },
     "region": "Any",
-    "language": "English",
     "privacy": "browser-only",
     "url": "https://claude.ai/artifact/7ik3Abn6YDQrRmKMoZTtJv",
     "status": "live",
@@ -102,20 +245,54 @@
     "tags": [
       "money",
       "home"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "ca"
     ]
   },
   {
     "id": "mortgage-simulator-spain",
-    "title": "Mortgage comparison for Spain (in Spanish)",
-    "problem": "Compare up to three mortgage offers side by side and see your monthly payment, total interest and the cash you need on signing day.",
-    "forWho": "People buying a home in Spain, especially Catalonia, who read Spanish and have offers from banks or a broker.",
-    "needAtHand": [
-      "The price of the home",
-      "Each offer's FEIN: interest rate, term, fees and required insurance"
-    ],
-    "timeToUse": "About 10 minutes",
-    "region": "Spain (Catalonia)",
-    "language": "Spanish",
+    "title": {
+      "en": "Mortgage comparison for Catalonia",
+      "es": "Comparador de hipotecas para Cataluña",
+      "ca": "Comparador d'hipoteques per a Catalunya"
+    },
+    "problem": {
+      "en": "Compare up to three mortgage offers side by side and see your monthly payment, total interest and the cash you need on signing day.",
+      "es": "Compara hasta tres ofertas de hipoteca lado a lado y mira la cuota mensual, los intereses totales y el dinero que necesitas el día de la firma, con los impuestos de Cataluña.",
+      "ca": "Compara fins a tres ofertes d'hipoteca una al costat de l'altra i mira la quota mensual, els interessos totals i els diners que necessites el dia de la signatura, amb els impostos de Catalunya."
+    },
+    "forWho": {
+      "en": "People buying a home in Catalonia who have offers from banks or a broker.",
+      "es": "Quien compra una vivienda en Cataluña y tiene ofertas de bancos o de un intermediario.",
+      "ca": "Qui compra un habitatge a Catalunya i té ofertes de bancs o d'un intermediari."
+    },
+    "needAtHand": {
+      "en": [
+        "The price of the home",
+        "Each offer's FEIN: interest rate, term, fees and required insurance"
+      ],
+      "es": [
+        "El precio de la vivienda",
+        "La FEIN de cada oferta: tipo de interés, plazo, comisiones y seguros obligatorios"
+      ],
+      "ca": [
+        "El preu de l'habitatge",
+        "La FEIN de cada oferta: tipus d'interès, termini, comissions i assegurances obligatòries"
+      ]
+    },
+    "timeToUse": {
+      "en": "About 10 minutes",
+      "es": "Unos 10 minutos",
+      "ca": "Uns 10 minuts"
+    },
+    "region": {
+      "en": "Catalonia",
+      "es": "Cataluña",
+      "ca": "Catalunya"
+    },
     "privacy": "browser-only",
     "url": "https://claude.ai/artifact/Ec5NqRULidgurD4Nj8BcRV",
     "status": "live",
@@ -124,6 +301,10 @@
       "money",
       "home",
       "spain"
+    ],
+    "languages": [
+      "es",
+      "ca"
     ]
   }
 ]

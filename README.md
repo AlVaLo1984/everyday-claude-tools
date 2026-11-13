@@ -2,7 +2,7 @@
 
 A short, hand-picked list of small free tools for everyday problems (money, meals,
 trips, habits, mortgages). Each tool is a Claude artifact that opens on claude.ai;
-no account is needed.
+no account is needed. Available in English, Spanish and Catalan.
 
 Site: https://alvalo1984.github.io/everyday-claude-tools/
 

@@ -4,37 +4,42 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Everyday Claude Tools</title>
-  <meta name="description" content="A short, hand-picked list of small free tools made with Claude for everyday problems.">
+  <meta name="description" content="A short, hand-picked list of small free tools made with Claude for everyday problems. In English, Spanish and Catalan.">
   <meta name="color-scheme" content="light dark">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <link rel="stylesheet" href="styles.css">
   <script src="app.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#tools">Skip to the list of tools</a>
+  <a class="skip-link" href="#tools" data-i18n="skip">Skip to the list of tools</a>
 
   <header class="site-header">
     <div class="wrap">
       <p class="site-name" data-site-name>Everyday Claude Tools</p>
-      <p class="site-tagline" data-site-tagline>A short, hand-picked list of small free tools for everyday problems.</p>
+      <p class="site-tagline" data-i18n="tagline">A short, hand-picked list of small free tools for everyday problems.</p>
+      <nav class="lang-switch" aria-label="Language" data-i18n-aria="langLabel" data-lang-switch hidden>
+        <button type="button" lang="en" data-lang="en">English</button>
+        <button type="button" lang="es" data-lang="es">Español</button>
+        <button type="button" lang="ca" data-lang="ca">Català</button>
+      </nav>
     </div>
   </header>
 
   <main id="main">
     <div class="wrap">
       <section class="intro" aria-labelledby="intro-title">
-        <h1 id="intro-title">Small free tools for everyday problems</h1>
-        <p class="lede">Each tool here does one ordinary job, like comparing mortgage offers or keeping a daily habit going. They were made with Claude and open on Claude's website, and a real person picked each one.</p>
-        <p>They're free to use. If one helped you, or got in your way, please tell us. That's how we decide what to keep.</p>
-        <nav class="contents" aria-label="Tools on this page">
-          <h2 class="contents-title">On this page</h2>
+        <h1 id="intro-title" data-i18n="h1">Small free tools for everyday problems</h1>
+        <p class="lede" data-i18n="lede">Each tool here does one ordinary job, like comparing mortgage offers or keeping a daily habit going. They were made with Claude and open on Claude's website, and a real person picked each one.</p>
+        <p data-i18n="free">They're free to use. If one helped you, or got in your way, please tell us. That's how we decide what to keep.</p>
+        <nav class="contents" aria-labelledby="contents-title">
+          <h2 class="contents-title" id="contents-title" data-i18n="contents">On this page</h2>
           <ol data-contents></ol>
         </nav>
       </section>
 
       <div class="layout">
         <section id="tools" class="tools" aria-labelledby="tools-title" tabindex="-1">
-          <h2 id="tools-title">The tools</h2>
+          <h2 id="tools-title" data-i18n="tools">The tools</h2>
           <noscript>
             <p class="notice">This list needs JavaScript to show. Please turn JavaScript on, or open this page in another browser. Nothing on this page tracks you.</p>
           </noscript>
@@ -43,29 +48,29 @@
         </section>
 
         <aside id="first-time" class="first-time" aria-labelledby="first-time-title">
-          <h2 id="first-time-title">First time opening one of these?</h2>
+          <h2 id="first-time-title" data-i18n="ftTitle">First time opening one of these?</h2>
           <ol class="steps">
-            <li><strong>It's a small app someone made with Claude.</strong> The "Open in Claude" button takes you to it on claude.ai, in a new tab.</li>
-            <li><strong>You'll see the tool inside a Claude page.</strong> You don't need to chat with Claude to use it. Just fill in the boxes.</li>
-            <li><strong>You don't need a Claude account.</strong> The tool opens without signing in. The page shows banners inviting you to sign in or get the Claude app; you can ignore them.</li>
-            <li><strong>Your data stays with you.</strong> For the tools listed here, what you type is kept in your own browser on that device. It doesn't move to your other devices, and clearing your browser data erases it.</li>
-            <li><strong>It's a tool, not advice.</strong> The mortgage tools do the arithmetic for you. Check the numbers with your bank or adviser before you decide anything.</li>
-            <li><strong>Tell us how it went.</strong> A two-minute <a href="#feedback">feedback form</a> is at the bottom of this page.</li>
+            <li data-i18n="ft1"><strong>It's a small app someone made with Claude.</strong> The "Open in Claude" button takes you to it on claude.ai, in a new tab.</li>
+            <li data-i18n="ft2"><strong>You'll see the tool inside a Claude page.</strong> You don't need to chat with Claude to use it. Just fill in the boxes.</li>
+            <li data-i18n="ft3"><strong>You don't need a Claude account.</strong> The tool opens without signing in. The page shows banners inviting you to sign in or get the Claude app; you can ignore them.</li>
+            <li data-i18n="ft4"><strong>Your data stays with you.</strong> For the tools listed here, what you type is kept in your own browser on that device. It doesn't move to your other devices, and clearing your browser data erases it.</li>
+            <li data-i18n="ft5"><strong>It's a tool, not advice.</strong> The money tools do the arithmetic for you. Check the numbers with your bank or adviser before you decide anything.</li>
+            <li data-i18n="ft6"><strong>Tell us how it went.</strong> A two-minute <a href="#feedback">feedback form</a> is at the bottom of this page.</li>
           </ol>
         </aside>
       </div>
 
       <section id="feedback" class="feedback" aria-labelledby="feedback-title">
-        <h2 id="feedback-title">Tell us how it went</h2>
+        <h2 id="feedback-title" data-i18n="fbTitle">Tell us how it went</h2>
         <div class="feedback-grid">
           <div class="feedback-item">
-            <h3>Used one of the tools?</h3>
-            <p>Did it help? Was anything confusing? Your answers decide which tools stay and what we add next. It takes about two minutes.</p>
+            <h3 data-i18n="fbUsedH">Used one of the tools?</h3>
+            <p data-i18n="fbUsedP">Did it help? Was anything confusing? Your answers decide which tools stay and what we add next. It takes about two minutes.</p>
             <p data-cta="feedback"></p>
           </div>
           <div class="feedback-item">
-            <h3>Know a problem a small tool could solve?</h3>
-            <p>Suggest a tool you'd like to see here, or one you've made with Claude. There's a section for this in the same form.</p>
+            <h3 data-i18n="fbSugH">Know a problem a small tool could solve?</h3>
+            <p data-i18n="fbSugP">Suggest a tool you'd like to see here, or one you've made with Claude. There's a section for this in the same form.</p>
             <p data-cta="suggest"></p>
           </div>
         </div>
@@ -75,8 +80,8 @@
 
   <footer class="site-footer">
     <div class="wrap">
-      <p><span data-site-name>Everyday Claude Tools</span> is picked and kept by hand. It is not an official Anthropic or Claude website.</p>
-      <p>This site has no ads, no cookies and no tracking. The tools themselves open on claude.ai.</p>
+      <p data-i18n="foot1"><span data-site-name>Everyday Claude Tools</span> is picked and kept by hand. It is not an official Anthropic or Claude website.</p>
+      <p data-i18n="foot2">This site has no ads, no cookies and no tracking. The tools themselves open on claude.ai.</p>
     </div>
   </footer>
 </body>
