@@ -1,0 +1,129 @@
+[
+  {
+    "id": "habit-tracker",
+    "title": "Daily habit tracker",
+    "problem": "Pick one or a few small habits, tick them off each day, and see how many days in a row you've kept them.",
+    "forWho": "Anyone trying to start or keep a small daily habit (walking, reading, water, no phone after 10 pm).",
+    "needAtHand": [
+      "Nothing. Just pick a habit."
+    ],
+    "timeToUse": "1 minute to set up, seconds per day",
+    "region": "Any",
+    "language": "English",
+    "privacy": "browser-only",
+    "url": "https://claude.ai/artifact/Cdg4MYu6J6VCeEdKq4HiVi",
+    "status": "live",
+    "addedOn": "2026-11-06",
+    "tags": [
+      "habits",
+      "health"
+    ]
+  },
+  {
+    "id": "money-saver",
+    "title": "Family money saver",
+    "problem": "Type what comes in and what goes out in a normal month, see what is left and where the money goes, and try what a few small cuts would add up to over a year.",
+    "forWho": "Any household that wants to save a bit more each month.",
+    "needAtHand": [
+      "Your monthly take-home income",
+      "Rough monthly amounts for rent or mortgage, bills, food and other spending"
+    ],
+    "timeToUse": "About 10 minutes",
+    "region": "Any",
+    "language": "English",
+    "privacy": "browser-only",
+    "url": "https://claude.ai/artifact/AqAwnGZ7CcHQQrSXxMDHMM",
+    "status": "live",
+    "addedOn": "2026-11-11",
+    "tags": [
+      "money",
+      "family"
+    ]
+  },
+  {
+    "id": "meal-planner",
+    "title": "Weekly meal planner",
+    "problem": "Decide the week's lunches and dinners once, list what each dish needs, and get one shopping list for the whole week.",
+    "forWho": "Anyone who cooks for a household and is tired of deciding every day what to eat.",
+    "needAtHand": [
+      "An idea of the dishes you usually cook"
+    ],
+    "timeToUse": "10 minutes a week",
+    "region": "Any",
+    "language": "English",
+    "privacy": "browser-only",
+    "url": "https://claude.ai/artifact/4LUfiaubEdivQiQGqrvpMo",
+    "status": "live",
+    "addedOn": "2026-11-11",
+    "tags": [
+      "food",
+      "family"
+    ]
+  },
+  {
+    "id": "trip-budget",
+    "title": "Family trip budget",
+    "problem": "Add up the full cost of a trip for your family (travel, a place to stay, food and the rest) and compare two options side by side before you book.",
+    "forWho": "Families choosing between two holiday options on a budget.",
+    "needAtHand": [
+      "Ticket or fuel prices for each option",
+      "The price per night of the place to stay",
+      "A rough idea of daily food and activity costs"
+    ],
+    "timeToUse": "About 10 minutes",
+    "region": "Any",
+    "language": "English",
+    "privacy": "browser-only",
+    "url": "https://claude.ai/artifact/V1MgRBap2bLx85mmSvvLHk",
+    "status": "live",
+    "addedOn": "2026-11-11",
+    "tags": [
+      "travel",
+      "money",
+      "family"
+    ]
+  },
+  {
+    "id": "mortgage-simulator",
+    "title": "Mortgage offer comparison",
+    "problem": "Compare up to three mortgage offers side by side and see your monthly payment, total interest and how much the loan really costs.",
+    "forWho": "Anyone choosing between home-loan offers.",
+    "needAtHand": [
+      "The price of the home and the deposit you can put down",
+      "Each offer's interest rate, term and fees"
+    ],
+    "timeToUse": "About 10 minutes",
+    "region": "Any",
+    "language": "English",
+    "privacy": "browser-only",
+    "url": "https://claude.ai/artifact/7ik3Abn6YDQrRmKMoZTtJv",
+    "status": "live",
+    "addedOn": "2026-11-06",
+    "tags": [
+      "money",
+      "home"
+    ]
+  },
+  {
+    "id": "mortgage-simulator-spain",
+    "title": "Mortgage comparison for Spain (in Spanish)",
+    "problem": "Compare up to three mortgage offers side by side and see your monthly payment, total interest and the cash you need on signing day.",
+    "forWho": "People buying a home in Spain, especially Catalonia, who read Spanish and have offers from banks or a broker.",
+    "needAtHand": [
+      "The price of the home",
+      "Each offer's FEIN: interest rate, term, fees and required insurance"
+    ],
+    "timeToUse": "About 10 minutes",
+    "region": "Spain (Catalonia)",
+    "language": "Spanish",
+    "privacy": "browser-only",
+    "url": "https://claude.ai/artifact/Ec5NqRULidgurD4Nj8BcRV",
+    "status": "live",
+    "addedOn": "2026-11-06",
+    "tags": [
+      "money",
+      "home",
+      "spain"
+    ]
+  }
+]
